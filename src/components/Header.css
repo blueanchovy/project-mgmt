@@ -1,0 +1,41 @@
+.header {
+  padding: 1rem 1rem 0.5rem 5%;
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  color: white;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.headerLeft > svg {
+  height: 15px;
+  padding: 5px;
+  color: white;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerRight > div {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.headerRight__BOQDownload {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerRight__BOQDownload > svg {
+  height: 15px;
+  padding: 5px;
+  color: white;
+}
